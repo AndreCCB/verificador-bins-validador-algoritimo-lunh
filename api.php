@@ -57,6 +57,7 @@ foreach ($number as $digit) {
 		$_bin = substr($bin, 0,$tam);
 		if($_bin==$key){
 			echo $bin.":".$_bandeira."<br>";
+			//break; caso for checar mais de uma bin para eviar bug's
 		}
 	}
 		
